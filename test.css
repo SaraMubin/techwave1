@@ -1,0 +1,97 @@
+/* Navbar */
+/* header section {
+    flex-direction: column;
+    align-items: center;
+}
+
+header ul {
+    flex-direction: column;
+    gap: 10px;
+    margin: 10px 0;
+}
+
+/* Hero */
+/* #hero div {
+    position: static;
+    text-align: center;
+    padding: 20px;
+}
+
+/* About stats */
+/* .bg-black .flex {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+} */
+
+/* Why choose */
+/* #purple {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+} */
+
+/* Videos */
+/* #utube {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+} */
+
+/* Host */
+/* #alex {
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+} */
+
+/* Footer */
+/* footer .absolute {
+    position: static;
+    text-align: center;
+    margin-top: 20px;
+} */ 
+
+
+/* =========================
+   TABLET (768px+)
+========================= */
+@media (min-width: 768px) {
+
+    header section {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    header ul {
+        flex-direction: row;
+    }
+
+    #purple {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    #utube {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    #alex {
+        flex-direction: row;
+        text-align: left;
+    }
+}
+
+
+/* =========================
+   DESKTOP (1024px+)
+========================= */
+@media (min-width: 1024px) {
+
+    #purple {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    #utube {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
